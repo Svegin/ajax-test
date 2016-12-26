@@ -24,7 +24,7 @@ function displayMatches() {
         <span class="population">${place.population}</span>
       </li>
     `;
-  });
+  }).join('');
   suggestions.innerHTML = html;
 }
 const searchInput = document.querySelector('.search');
